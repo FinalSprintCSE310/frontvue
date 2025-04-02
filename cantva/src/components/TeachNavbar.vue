@@ -6,9 +6,9 @@ import { RouterLink } from 'vue-router';
     <div class="bg-blue-50">
     <h1 class="font-bold underline text-2xl">Schooled Systems</h1>
     <nav class="space-x-4">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/login">Login</RouterLink>
+        <RouterLink to="/TeachDash">Dashboard</RouterLink>
+        <RouterLink to="/TeachChat">Chats</RouterLink>
+        <RouterLink to="/TeachClass">Classes</RouterLink>
     </nav>
 
 
