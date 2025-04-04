@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import LoginView from '@/views/loginView.vue';
 
+import TeachDash from '@/views/TeachDash.vue';
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -20,6 +22,11 @@ const router = createRouter({
       path:'/login',
       name:'login',
       component:LoginView,
+    },
+    {
+      path: '/teachdash',
+      name: 'teachdash',
+      component: TeachDash,
     },
   ],
 })
